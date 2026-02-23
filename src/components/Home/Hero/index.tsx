@@ -10,7 +10,6 @@ const Hero = () => {
         <div className="flex flex-wrap gap-5">
           <div className="xl:max-w-[757px] w-full">
             <div className="relative z-1 rounded-[10px] bg-white overflow-hidden">
-              {/* <!-- bg shapes --> */}
               <Image
                 src="/images/hero/hero-bg.png"
                 alt="hero bg shapes"
@@ -89,8 +88,6 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-
-              
             </div>
           </div>
         </div>
