@@ -18,7 +18,7 @@ export const useModalContext = () => {
 };
 
 export const ModalProvider = ({ children }) => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false); 
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -33,4 +33,4 @@ export const ModalProvider = ({ children }) => {
       {children}
     </ModalContext.Provider>
   );
-}; 
+};
