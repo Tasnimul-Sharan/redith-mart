@@ -7,14 +7,25 @@ import ShippingMethod from "./ShippingMethod";
 import PaymentMethod from "./PaymentMethod";
 import Coupon from "./Coupon";
 import Billing from "./Billing";
+import { useRouter } from "next/navigation";
 
 const Checkout = () => {
+  const router = useRouter();
+
+  const handleCheckout = (e) => {
+    e.preventDefault(); // prevent page reload
+
+    // order processing logic
+    console.log("Order placed");
+
+    router.push("/success"); // redirect page
+  };
   return (
     <>
       <Breadcrumb title={"Checkout"} pages={["checkout"]} />
       <section className="overflow-hidden py-20 bg-gray-2">
         <div className="custom-container w-full mx-auto">
-          <form>
+          <form onSubmit={handleCheckout}>
             <div className="flex flex-col lg:flex-row gap-7.5 xl:gap-11">
               {/* <!-- checkout left --> */}
               <div className="lg:max-w-[670px] w-full">
