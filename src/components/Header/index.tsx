@@ -329,9 +329,6 @@ const Header = () => {
               </nav>
               {/* //   <!-- Main Nav End --> */}
             </div>
-            {/* // <!--=== Main Nav End ===--> */}
-
-            {/* // <!--=== Nav Right Start ===--> */}
             <div className="hidden xl:block">
               <ul className="flex items-center gap-5.5">
                 <li className="py-4">
@@ -383,7 +380,6 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            {/* <!--=== Nav Right End ===--> */}
           </div>
         </div>
       </div>

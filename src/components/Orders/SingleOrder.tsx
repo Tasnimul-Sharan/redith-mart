@@ -38,10 +38,10 @@ const SingleOrder = ({ orderItem, smallView }: any) => {
                 orderItem.status === "delivered"
                   ? "text-green bg-green-light-6"
                   : orderItem.status === "on-hold"
-                  ? "text-red bg-red-light-6"
-                  : orderItem.status === "processing"
-                  ? "text-yellow bg-yellow-light-4"
-                  : "Unknown Status"
+                    ? "text-red bg-red-light-6"
+                    : orderItem.status === "processing"
+                      ? "text-yellow bg-yellow-light-4"
+                      : "Unknown Status"
               }`}
             >
               {orderItem.status}
@@ -89,10 +89,10 @@ const SingleOrder = ({ orderItem, smallView }: any) => {
                     orderItem.status === "delivered"
                       ? "text-green bg-green-light-6"
                       : orderItem.status === "on-hold"
-                      ? "text-red bg-red-light-6"
-                      : orderItem.status === "processing"
-                      ? "text-yellow bg-yellow-light-4"
-                      : "Unknown Status"
+                        ? "text-red bg-red-light-6"
+                        : orderItem.status === "processing"
+                          ? "text-yellow bg-yellow-light-4"
+                          : "Unknown Status"
                   }`}
                 >
                   {orderItem.status}

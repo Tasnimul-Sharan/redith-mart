@@ -85,7 +85,7 @@ const Checkout = () => {
                         <p className="text-dark">iPhone 14 Plus , 6/128GB</p>
                       </div>
                       <div>
-                        <p className="text-dark text-right">$899.00</p>
+                        <p className="text-dark text-right">৳899.00</p>
                       </div>
                     </div>
 
@@ -95,7 +95,7 @@ const Checkout = () => {
                         <p className="text-dark">Asus RT Dual Band Router</p>
                       </div>
                       <div>
-                        <p className="text-dark text-right">$129.00</p>
+                        <p className="text-dark text-right">৳129.00</p>
                       </div>
                     </div>
 
@@ -105,7 +105,7 @@ const Checkout = () => {
                         <p className="text-dark">Havit HV-G69 USB Gamepad</p>
                       </div>
                       <div>
-                        <p className="text-dark text-right">$29.00</p>
+                        <p className="text-dark text-right">৳29.00</p>
                       </div>
                     </div>
 
@@ -115,7 +115,7 @@ const Checkout = () => {
                         <p className="text-dark">Shipping Fee</p>
                       </div>
                       <div>
-                        <p className="text-dark text-right">$15.00</p>
+                        <p className="text-dark text-right">৳15.00</p>
                       </div>
                     </div>
 
@@ -126,7 +126,7 @@ const Checkout = () => {
                       </div>
                       <div>
                         <p className="font-medium text-lg text-dark text-right">
-                          $1072.00
+                          ৳1072.00
                         </p>
                       </div>
                     </div>

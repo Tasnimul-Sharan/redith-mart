@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="xl:max-w-[457px] w-full">
+          <div className="xl:max-w-[465px] w-full">
             <div className="flex flex-col sm:flex-row xl:flex-col gap-5">
               <div className="w-full relative rounded-[10px] bg-white p-4 sm:p-7.5">
                 <div className="flex items-center gap-14">
