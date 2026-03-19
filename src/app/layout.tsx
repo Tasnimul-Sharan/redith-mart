@@ -56,8 +56,8 @@
 //   );
 // }
 
-import "../css/euclid-circular-a-font.css";
-import "../css/style.css";
+import "./css/euclid-circular-a-font.css";
+import "./css/style.css";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
